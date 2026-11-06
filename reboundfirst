@@ -158,9 +158,14 @@ local function RunRebound(IsFirst)
         },
         Death = {
             Type = "Guiding", -- "Curious"
-            Hints = {"You died to Rebound.", "It returns after every door you open.", "Its speed makes it dangerous, so find a hiding spot quickly.", "Never assume it has finished rebounding."Good luck. You'll need it."},
-            Cause = "Rebound",
-            MessageDelay = 0
+           Hints = {
+    "You died to Rebound.",
+    "It returns after every door you open.",
+    "Its speed makes it dangerous, so find a hiding spot quickly.",
+    "Never assume it has finished rebounding."
+},
+Cause = "Rebound",
+MessageDelay = 0
         }
     })
 
